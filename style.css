@@ -8,6 +8,14 @@
 
 /* LAYOUT */
 
+.card {
+    background-color: #fdf5bf;
+    border: 1px solid #982649;
+    padding: 8px;
+    border-radius: 14px;
+
+}
+
 img {
     display: block;
     margin: 0 auto;
