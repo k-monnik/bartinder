@@ -13,8 +13,15 @@
     border: 1px solid #982649;
     padding: 8px;
     border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 300px;
 
 }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
 
 img {
     display: block;
@@ -26,6 +33,11 @@ img {
 
 h1 {
     color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 h4 {
