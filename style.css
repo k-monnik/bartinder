@@ -42,4 +42,6 @@ h2 {
 
 h4 {
     width: 200px;
+    text-align: left;
+    text: 12px;
 }
