@@ -4,6 +4,8 @@
     box-sizing: border-box;
     background-color: #FFCE30;
     color: navy;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 /* LAYOUT */
@@ -43,5 +45,5 @@ h2 {
 h4 {
     width: 200px;
     text-align: center;
-    text: 12px;
+    text: 11px;
 }
