@@ -8,10 +8,17 @@ function getDrink() {
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`)
         .then((response) => response.json()) //parse response as JSON
         .then(data => {
-            console.log(data.drinks[0])
-            document.querySelector('h2').innerText = data.drinks[0].strDrink
-            document.querySelector('img').src = data.drinks[0].strDrinkThumb
-            document.querySelector('h4').innerText = data.drinks[0].strInstructions
+            console.log(data.drinks[1])
+            // .map(cocktail => {
+            //     return `
+            //     <p><img src="${data.drinks.strDrinkThumb}" alt="${data.drinks.strDrink}"/></p>
+            //     <p>${data.drinks.strDrink}</p>
+            //     <p>Recipe: ${data.drinks.strInstructions}</p>
+            //     `
+            // })
+            document.querySelector('h2').innerText = data.drinks[1].strDrink
+            document.querySelector('img').src = data.drinks[1].strDrinkThumb
+            document.querySelector('h4').innerText = data.drinks[1].strInstructions
         })
         .catch(err => {
             console.log(`error ${err}`)
