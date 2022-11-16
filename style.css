@@ -48,3 +48,19 @@ h4 {
     text-align: left;
     text: 12px;
 }
+
+button {
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 10%;
+
+}
+
+button:hover {
+    border-color: #99ffcc;
+    border-width: 2px;
+}
+
+//colors:
+// teal: #25a1b3 (websafe: 3399cc)
+//purple-blue: #3300cc (web safe)
