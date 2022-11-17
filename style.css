@@ -5,10 +5,16 @@
     background-color: #FFCE30;
     color: navy;
     font-family: 'Quicksand', sans-serif;
+    margin: auto;
 
 }
 
 /* LAYOUT */
+
+.search {
+    width: 23%;
+    margin: auto;
+}
 
 .card {
     background-color: #fdf5bf;
@@ -32,6 +38,7 @@ img {
     border-radius: 50%;
     border: 5px solid green;
 }
+
 
 h1 {
     color: navy;
