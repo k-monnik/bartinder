@@ -15,6 +15,9 @@ function getDrink() {
             //     <p>${data.drinks.strDrink}</p>
             //     <p>Recipe: ${data.drinks.strInstructions}</p>
             //     `
+            //if (document.querySelector('img').src = null) {
+            //     document.querySelector('img').src = {placeholder}
+            // }
             // })
             document.querySelector('h2').innerText = data.drinks[3].strDrink
             document.querySelector('img').src = data.drinks[3].strDrinkThumb
